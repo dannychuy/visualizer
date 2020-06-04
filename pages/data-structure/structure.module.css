@@ -1,0 +1,27 @@
+.control {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+
+	width: 450px;
+}
+
+.viewport {
+	position: relative;
+    height: calc(100vh - 60px);
+}
+
+/*.modifyBoard {
+	scroll-snap-type: mandatory;
+	scroll-snap-points-y: repeat(150px);
+	scroll-snap-type: y mandatory;
+
+	height: 150px;
+	overflow: scroll;
+}*/
+
+/*
+	scroll-snap-stop: always;
+	scroll-snap-align: start;
+*/
